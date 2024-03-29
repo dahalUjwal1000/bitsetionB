@@ -1,0 +1,44 @@
+@import "mixin";
+@import "var";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-color:gray;
+    
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-color:gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+h1{
+    font-family: monospace;
+    color:yellow;
+    @include  letter_spacing;
+    &:hover{
+        color:$color1;
+    }
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:$color;
+    @include  letter_spacing;
+   &:hover{
+    color:cyan;
+}
+}
+

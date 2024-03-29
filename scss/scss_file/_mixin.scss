@@ -1,0 +1,9 @@
+@mixin flexing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+@mixin letter_spacing($spacing){
+    letter-spacing:$spacing;
+}
